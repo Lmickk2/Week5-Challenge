@@ -6,10 +6,31 @@ body {
 }
 
 textarea {
+  background: transparent;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
   box-shadow: black 3px 3px 10px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+
+.past {
+  background-color: #6d0e0e;
+  color: white;
+}
+
+.present {
+  background-color: #98b84f;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
 }
 
 .container {
